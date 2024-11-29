@@ -1,0 +1,123 @@
+body {
+	margin: 0;
+	padding: 0;
+
+	background: linear-gradient(180deg, #000000 0%, #375321 100%);
+
+	width: 50%;
+	height: 100%;
+}
+
+header {
+	width: 1455px;
+	height: 105px;
+	background: #060606;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav a {
+	/* 2060Ti */
+
+	width: 151px;
+	height: 34px;
+
+	font-family: "Josefin Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 38px;
+
+	color: #ffffff;
+
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+nav {
+	display: flex;
+}
+
+.Tytuł {
+	/* Karty Graficzne */
+
+	width: 319px;
+	height: 52px;
+
+	font-family: "Josefin Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 46px;
+	line-height: 58px;
+
+	color: #ffffff;
+
+	display: flex;
+	justify-content: flex-start;
+}
+
+.win {
+	/* position: fixed; */
+	width: 274px;
+	height: 497px;
+	/* left: 346px;
+top: 320px; */
+
+	background-color: #151515;
+	box-shadow: 10px 6px 4px 2px #375321;
+	border-radius: 35px;
+}
+
+.win-contener {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 100px;
+	padding-left: 200px;
+}
+
+.txt {
+	/* PowerColor Radeon RX 6600 Fighter 8GB */
+
+	width: 276px;
+	height: 110px;
+
+	font-family: "Josefin Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	font-weight: 100%;
+	line-height: 26px;
+	text-align: center;
+
+	color: #ffffff;
+	display: flex;
+	align-items: flex-end;
+}
+
+.prize {
+	/* 962zł */
+
+	width: 275px;
+	height: 200px;
+
+	font-family: "Inria Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 46px;
+	text-align: center;
+
+	color: #4cf01a;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.menu {
+	/* Group 2 */
+
+	width: 199px;
+	height: 51px;
+}
